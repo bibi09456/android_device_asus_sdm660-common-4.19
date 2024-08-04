@@ -265,7 +265,7 @@ PRODUCT_PACKAGES += \
 
 # HotwordEnrollement app permissions
 PRODUCT_COPY_FILES += \
-    $(COMMON_PATH)/permissions/privapp-permissions-hotword.xml:system/etc/permissions/privapp-permissions-hotword.xml
+    $(COMMON_PATH)/permissions/privapp-permissions-hotword.xml:system/product/etc/permissions/privapp-permissions-hotword.xml
  
 # Inherit several Android Go Configurations(Beneficial for everyone, even on non-Go devices)
 PRODUCT_USE_PROFILE_FOR_BOOT_IMAGE := true
